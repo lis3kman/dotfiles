@@ -1,0 +1,7 @@
+#! /bin/sh
+
+sxhkd &
+picom --config ~/.config/picom/picom.conf &
+$HOME/.config/polybar/launch.sh &
+nitrogen --restore &
+lxsession &
